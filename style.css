@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto');
+
+.p-title {
+    font-family: 'Roboto';
+    color: hsl(197, 71%, 73%)
+}
+
 .p-img {
     height: 150px;
     width: 250px;
@@ -5,4 +12,18 @@
 
 .row {
     display: flex;
+}
+
+.row {
+    font-family: 'Cabin';
+}
+
+.row .img-div, .row ul {
+    width: 25vw;
+}
+.row .img-div {
+    text-align: center;
+}
+.row p {
+    width: 50vw;
 }
